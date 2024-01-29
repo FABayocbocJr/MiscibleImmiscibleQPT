@@ -61,6 +61,7 @@ ylabel('$\hat{\xi}N_{d}$','Interpreter','latex','FontSize',fs)
 xlabel('$b\tau_{Q}$','Interpreter','latex','FontSize',fs)
 legend('$\hat{\xi}N_{d} = \hat{\xi}N_{d}(b=0)$','$\hbar b = 0.0025\times \mu_{0}$','$\hbar b = 0.005\times \mu_{0}$','$\hbar b = 0.0075\times \mu_{0}$','$\hbar b = 0.01\times \mu_{0}$','$\hbar b = 0.0125\times \mu_{0}$','$\hbar b = 0.015\times \mu_{0}$','$\hbar b = 0.0175\times \mu_{0}$','$\hbar b = 0.02\times \mu_{0}$','$\hbar b = 0.0225\times \mu_{0}$','$\hbar b = 0.025\times \mu_{0}$','Interpreter','latex','location','southwest','fontsize',fs-2)
 axis([xmin xmax ymin ymax])
+text(8.7e-3,3e0,sprintf('$$\\textbf{(a)}$$'),'Interpreter','latex','Color','black','FontSize',fs)
 
 print('Fig_5a.eps','-depsc')
 
@@ -95,5 +96,6 @@ ylabel('$\hat{\xi}N_{d}$','Interpreter','latex','FontSize',fs)
 xlabel('$b^{3/2}\tau_{Q}/\Omega_\mathrm{c}^{1/2}$','Interpreter','latex','FontSize',fs)
 legend('$\hat{\xi}N_{d} = \hat{\xi}N_{d}(b=0)$','$\hbar b = 0.0025\times \mu_{0}$','$\hbar b = 0.005\times \mu_{0}$','$\hbar b = 0.0075\times \mu_{0}$','$\hbar b = 0.01\times \mu_{0}$','$\hbar b = 0.0125\times \mu_{0}$','$\hbar b = 0.015\times \mu_{0}$','$\hbar b = 0.0175\times \mu_{0}$','$\hbar b = 0.02\times \mu_{0}$','$\hbar b = 0.0225\times \mu_{0}$','$\hbar b = 0.025\times \mu_{0}$','Interpreter','latex','location','southwest','fontsize',fs-2)
 axis([xmin xmax ymin ymax])
+text(3.9e-4,3e0,sprintf('$$\\textbf{(b)}$$'),'Interpreter','latex','Color','black','FontSize',fs)
 
 print('Fig_5b.eps','-depsc')

@@ -118,7 +118,7 @@ yticks([-5.5 -4.5 -3.5 0])
 yticklabels({'-1', '0', '1', '0'})
 set(gca, 'XTickLabel', {'$-L/2$', '0', '$-L/2$'}, 'TickLabelInterpreter', 'latex');
 xlabel('$x$','Interpreter','latex')
-ylabel('$\frac{\rho_{1}(x)-\rho_{2}(x)}{\rho_{1}(x)+\rho_{2}(x)}$','Interpreter','latex')
+ylabel('$\frac{\rho_{1}(x)-\rho_{2}(x)}{\rho_{1}(x)+\rho_{2}(x)}$','Interpreter','latex','FontSize',fs+6)
 
 print('Fig_1.eps','-depsc')
 

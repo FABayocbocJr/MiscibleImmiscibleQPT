@@ -44,6 +44,7 @@ plot([0.001:0.001:1],11*[0.001:0.001:1].^(2/3),'Color','black','LineWidth',1)
 text(5e-2,3.4e0,sprintf('$$\\sim x^{2/3} \\rightarrow$$'),'Interpreter','latex','Color','black','FontSize',fs)
 axis([1e-2 1e1 4e-1 8e0])
 legend('$\hbar b = 0.0025\times \mu_{0}$','$\hbar b = 0.005\times \mu_{0}$','$\hbar b = 0.0075\times \mu_{0}$','$\hbar b = 0.01\times \mu_{0}$','$\hbar b = 0.0125\times \mu_{0}$','$\hbar b = 0.015\times \mu_{0}$','$\hbar b = 0.0175\times \mu_{0}$','$\hbar b = 0.02\times \mu_{0}$','$\hbar b = 0.0225\times \mu_{0}$','$\hbar b = 0.025\times \mu_{0}$','Interpreter','latex','location','southeast','fontsize',fs-2)
+text(3.3e-3,8e0,sprintf('$$\\textbf{(a)}$$'),'Interpreter','latex','Color','black','FontSize',fs)
 
 print('Fig_3a.eps','-depsc')
 
@@ -73,5 +74,6 @@ plot([0.001:0.001:0.04],11*[0.001:0.001:0.04].^(2/3),'Color','black','LineWidth'
 text(4e-3,7e-1,sprintf('$$\\sim x^{2/3} \\rightarrow$$'),'Interpreter','latex','Color','black','FontSize',fs)
 axis([1e-3 2e0 6e-2 1.1e0])
 legend('$\hbar b = 0.0025\times \mu_{0}$','$\hbar b = 0.005\times \mu_{0}$','$\hbar b = 0.0075\times \mu_{0}$','$\hbar b = 0.01\times \mu_{0}$','$\hbar b = 0.0125\times \mu_{0}$','$\hbar b = 0.015\times \mu_{0}$','$\hbar b = 0.0175\times \mu_{0}$','$\hbar b = 0.02\times \mu_{0}$','$\hbar b = 0.0225\times \mu_{0}$','$\hbar b = 0.025\times \mu_{0}$','Interpreter','latex','location','southeast','fontsize',fs-2)
+text(2.9e-4,1.1e0,sprintf('$$\\textbf{(b)}$$'),'Interpreter','latex','Color','black','FontSize',fs)
 
 print('Fig_3b.eps','-depsc')
