@@ -1,0 +1,25 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Repository for Biased dynamics of the miscibleimmiscible
+  quantum phase transition in a binary Bose-Einstein
+  condensate
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Francis
+    name-particle: A.
+    family-names: Bayocboc
+    name-suffix: Jr.
+    orcid: 'https://orcid.org/0000-0002-7157-6184'
+  - given-names: Jacek
+    family-names: Dziarmaga
+    orcid: 'https://orcid.org/0000-0002-7361-4252'
+  - given-names: Wojciech
+    name-particle: H.
+    family-names: Zurek
+    orcid: 'https://orcid.org/0000-0002-6505-7345'
